@@ -16,29 +16,27 @@
       <h1>Epicodus discount pizza</h1>
     </div>
     <div class="row">
-      <div class="col-sm-4">
-        <p>instructions on how to order:</p>
-        <p> </p>
+      <div class="col-sm-4 left border">
+        <p class="underline bold">instructions for ordering:</p>
+        <p class="underline"> Sizes</p>
         <p>small $2.00</p>
         <p>medium $3.00</p>
         <p>large $4.00</p>
-        <p>Each Pizza comes with one topping included.</p>
+        <p class="underline">Each Pizza comes with one topping included</p>
         <p>additional toppings cost $1.00 each</p>
-        <p> </p>
-        <p> </p>
       </div>
       <div class="col-sm-4">
 
-        <form id="sizeOfPizza">
-          <p>Choose the size you like:</p>
+        <form class="border" id="sizeOfPizza">
+          <p class="underline">Choose the size you like:</p>
           <input type="radio" name="size" value="1" checked> small<br>
           <input type="radio" name="size" value="2"> medium<br>
           <input type="radio" name="size" value="3"> large<br>
         </form>
         <br>
 
-        <form id="toppingsOnPizza">
-          <p>Choose toppings you like:</p>
+        <form class="border" id="toppingsOnPizza">
+          <p class="underline">Choose toppings you like:</p>
           <input type="checkbox" class="topping" value="cheese" checked> extra cheese<br>
           <input type="checkbox" class="topping" value="pepperoni"> pepperoni<br>
           <input type="checkbox" class="topping" value="artichoke"> artichoke<br>
@@ -50,15 +48,15 @@
         </form>
         <br>
 
-        <button type="button" class="btn btn-success btn-sm" name="button" id="goButton" >GO!</button>
+        <button type="button" class="btn btn-success btn-lg" name="button" id="goButton" >GO!</button>
       </div>
-      <div class="col-sm-4 checkOutResult">
-        <p>You chose this pizza:</p>
-        <p>size:</p>
+      <div class="col-sm-4 checkOutResult border">
+        <p class="bold">You chose this pizza:</p>
+        <p class="underline">size:</p>
         <p class="chosenSize"></p>
-        <p>You chose these toppings:</p>
+        <p class="underline">You chose these toppings:</p>
         <p class="chosenToppings"></p>
-        <p>Your pizza will cost:</p>
+        <p class="underline">Your pizza will cost:</p>
         <p class="willCost"></p>
 
       </div>
