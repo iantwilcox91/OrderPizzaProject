@@ -3,11 +3,9 @@ function Pizza( size, topping ){
   this.size = size;
   this.topping = topping;
 }
-
 Pizza.prototype.checkoutCost = function () {
   return parseInt(this.size) + (this.topping).length;
 };
-
 function PostPizza(){
   var selectedSize = $('input[name=size]:checked', '#sizeOfPizza').val();
   var selectedToppings = $( ":checkbox:checked" ).map(function() { return this.value; }).get().join().split(",");
@@ -25,13 +23,10 @@ function PostPizza(){
   $(".chosenToppings").text(newPizza.topping);
   $(".willCost").text("$" + newPizza.checkoutCost() +".00");
 }
-
 // user interface logic
 $(document).ready(function(){
-
   $("#goButton").click(function() {
     $(".checkOutResult").show();
     PostPizza();
   });
-
 });
