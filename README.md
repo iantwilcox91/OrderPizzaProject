@@ -24,6 +24,9 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 |Behavior | input | output|
 |---|---|---|
+|user can select a size of pizza| click "small"| small is selected|
+|user can add toppings | choose toppings from a list| toppings are added to pizza|
+|user can order their created pizza and receive a price quote | click "order"| displays the pizza size, selected toppings and price|
 |1|2|3|
 
 
