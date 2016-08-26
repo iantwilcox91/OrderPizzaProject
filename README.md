@@ -25,12 +25,6 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 |Behavior | input | output|
 |---|---|---|
 |1|2|3|
-|1|2|3|
-|1|2|3|
-|1|2|3|
-|1|2|3|
-|1|2|3|
-|1|2|3|
 
 
 ## Known Bugs
