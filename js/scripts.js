@@ -8,7 +8,10 @@ Pizza.prototype.checkoutCost = function () {
   return parseInt(this.size) + (this.topping).length;
 };
 
+function PostPizza(){
 
+  
+}
 
 
 
@@ -23,6 +26,9 @@ $(document).ready(function(){
     var selectedToppings = $( ":checkbox:checked" ).map(function() { return this.value; }).get().join().split(",");
     var newPizza = new Pizza(selectedSize, selectedToppings);
     console.log(newPizza);
+    console.log(newPizza.size);
+    console.log(newPizza.topping);
+    // console.log(newPizza.topping.forEach(function(topping) { } ));
     console.log(newPizza.checkoutCost());
   });
 
