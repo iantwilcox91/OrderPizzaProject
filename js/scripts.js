@@ -1,12 +1,20 @@
 // business logic
-function Pizza( size, toppings ){
+function Pizza( size, topping ){
   this.size = size;
-  this.toppings = toppings;
+  this.topping = topping;
 }
 
 Pizza.prototype.checkoutCost = function () {
-  // return SOMETHING
+  return parseInt(this.size) + (this.topping).length;
 };
+
+
+
+
+
+
+
+
 
 
 // user interface logic
@@ -17,6 +25,7 @@ $(document).ready(function(){
     var selectedToppings = $( ":checkbox:checked" ).map(function() { return this.value; }).get().join().split(",");
     var newPizza = new Pizza(selectedSize, selectedToppings);
     console.log(newPizza);
+    console.log(newPizza.checkoutCost());
   });
 
 
