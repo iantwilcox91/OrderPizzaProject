@@ -10,7 +10,7 @@ Pizza.prototype.checkoutCost = function () {
 
 function PostPizza(){
 
-  
+
 }
 
 
@@ -27,11 +27,11 @@ $(document).ready(function(){
     var newPizza = new Pizza(selectedSize, selectedToppings);
     console.log(newPizza);
     console.log(newPizza.size);
+    $(".chosenSize").text(newPizza.size);
     console.log(newPizza.topping);
-    // console.log(newPizza.topping.forEach(function(topping) { } ));
+    $(".chosenToppings").text(newPizza.topping);
     console.log(newPizza.checkoutCost());
+    $(".willCost").text("$" + newPizza.checkoutCost() +".00")
   });
-
-
 
 });
