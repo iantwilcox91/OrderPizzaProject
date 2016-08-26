@@ -1,0 +1,11 @@
+.checkOutResult{
+  display: none;
+}
+.jumbotron{
+  color: yellow;
+  background-color: orange;
+  text-align: center;
+}
+body{
+  background-color: yellow;
+}

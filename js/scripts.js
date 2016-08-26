@@ -27,11 +27,11 @@ function PostPizza(){
   $(".willCost").text("$" + newPizza.checkoutCost() +".00");
 }
 
-
 // user interface logic
 $(document).ready(function(){
 
   $("#goButton").click(function() {
+    $(".checkOutResult").show();
     PostPizza();
   });
 
