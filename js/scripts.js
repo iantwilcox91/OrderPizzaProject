@@ -15,8 +15,6 @@ Pizza.prototype.checkoutCost = function () {
 
 
 
-
-
 // user interface logic
 $(document).ready(function(){
 

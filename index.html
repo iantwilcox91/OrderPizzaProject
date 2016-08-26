@@ -12,26 +12,40 @@
   </head>
 
   <body>
-    <form id=sizeOfPizza>
-      <input type="radio" name="size" value="1" checked> small<br>
-      <input type="radio" name="size" value="2"> medium<br>
-      <input type="radio" name="size" value="3"> large<br>
-    </form>
-    <br>
+    <div class="jumbotron">
+      <h1>Epicodus discount pizza</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>instructions on how to order</p>
+      </div>
+      <div class="col-sm-4">
 
-    <form id=toppingsOnPizza>
-      <input type="checkbox" class="topping" value="cheese" checked> extra cheese<br>
-      <input type="checkbox" class="topping" value="pepperoni"> pepperoni<br>
-      <input type="checkbox" class="topping" value="artichoke"> artichoke<br>
-      <input type="checkbox" class="topping" value="anchovy"> anchovy<br>
-      <input type="checkbox" class="topping" value="olives"> olives<br>
-      <input type="checkbox" class="topping" value="sausage"> sausage<br>
-      <input type="checkbox" class="topping" value="mushrooms"> mushrooms<br>
-      <input type="checkbox" class="topping" value="onions"> onions<br>
-    </form>
-    <br>
+        <form id=sizeOfPizza>
+          <input type="radio" name="size" value="1" checked> small<br>
+          <input type="radio" name="size" value="2"> medium<br>
+          <input type="radio" name="size" value="3"> large<br>
+        </form>
+        <br>
 
-    <button type="button" class="btn btn-success btn-sm" name="button" id="goButton" >GO!</button>
+        <form id=toppingsOnPizza>
+          <input type="checkbox" class="topping" value="cheese" checked> extra cheese<br>
+          <input type="checkbox" class="topping" value="pepperoni"> pepperoni<br>
+          <input type="checkbox" class="topping" value="artichoke"> artichoke<br>
+          <input type="checkbox" class="topping" value="anchovy"> anchovy<br>
+          <input type="checkbox" class="topping" value="olives"> olives<br>
+          <input type="checkbox" class="topping" value="sausage"> sausage<br>
+          <input type="checkbox" class="topping" value="mushrooms"> mushrooms<br>
+          <input type="checkbox" class="topping" value="onions"> onions<br>
+        </form>
+        <br>
+
+        <button type="button" class="btn btn-success btn-sm" name="button" id="goButton" >GO!</button>
+      </div>
+      <div class="col-sm-4">
+        <p>result pizza</p>
+      </div>
+    </div>
   </body>
 
 </html>
