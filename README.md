@@ -1,49 +1,36 @@
-# _{Application Name}_
+# _Order A Pizza Project_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _object practice, 08-26-2016_
 
-#### By _**{List of contributors}**_
+#### By _**Ian Wilcox**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application will allow a user to select different sizes and toppings for a hypothetical pizza. It will then reproduce what the user selected and show what that pizza would cost_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-
+* _clone this repository_
+* _initiate the index_
+* _open the page in a web browser_
 
 # Behavior Driven Development
 
 |Behavior | input | output|
 |---|---|---|
 |user can select a size of pizza| click "small"| small is selected|
-|user can add toppings | choose toppings from a list| toppings are added to pizza|
-|user can order their created pizza and receive a price quote | click "order"| displays the pizza size, selected toppings and price|
-|1|2|3|
-
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+|user can add toppings | choose toppings from a list| toppings are selected|
+|user can order their created pizza and receive a price quote | click "order"| displays the pizza size, selected toppings, and price|
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML_
+_CSS_
+_Javascript_
+_Bootstrap_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This application is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Ian Wilcox_**

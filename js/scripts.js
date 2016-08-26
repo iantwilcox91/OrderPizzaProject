@@ -12,7 +12,6 @@ function PostPizza(){
   var selectedSize = $('input[name=size]:checked', '#sizeOfPizza').val();
   var selectedToppings = $( ":checkbox:checked" ).map(function() { return this.value; }).get().join().split(",");
   var newPizza = new Pizza(selectedSize, selectedToppings);
-
   if (newPizza.size === "1"){
     var SizeString = "small";
     $(".chosenSize").text(SizeString);
